@@ -86,7 +86,7 @@ jumbotron 템플릿 꾸며주기<br>
 <li>accept-charset : 폼 전송에 사용할 문자 인코딩을 지정합니다.</li>
 <li>target : action에서 지정한 스크립트 파일을 현재 창이 아닌 다른 위치에 열도록 지정합니다.</li>
 <li>method : 폼을 서버에 전송할 http 메소드를 정합니다. (GET 또는 POST)</li>
-
+form 사용법 : http://the3.tistory.com/53 <
  
  
 
