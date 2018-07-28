@@ -55,7 +55,30 @@ location,href = “이동하고 싶은 jsp 파일”</h6></p>
 태그에 **data-toggle="collapse"**와  **data-target**을 붙이기만 하면 숨김 가능한 다른 태그를 제어하게 된다. data-target 속성은 숨김을 적용할 css 선택자를 값으로 받는다. 숨김 가능한 태그에 collapse 클래스를 잊지 마라. <br>
 **droptdwon 사용하기**(bootstrap)<br>
 a 태그를 사용할 때에 href="#"을 넣으므로써 현재 가르키는 링크가 없다는 것을 알려주고<br>
-**data-toggle="dropdwon"** 속성을 사용하여 dropdown을 구현한다. aria-haspopup -> 텍스트 필드와 연관된 하위 수준의 메뉴가 있으면 true, 그렇지 않으면 false, aria-expanded 펼침 상태  
+**data-toggle="dropdwon"** 속성을 사용하여 dropdown을 구현한다. aria-haspopup -> 텍스트 필드와 연관된 하위 수준의 메뉴가 있으면 true, 그렇지 않으면 false, aria-expanded 펼침 상태 <br><br>
+class ="active" 하면 현재 선택이 되었다는 뜻(현재 선택된 홈페이지를 의미) 위의 코드에 따르면 login.jsp가 현재 선택된 홈페이지라는 것을 표시해준다.(파란색으로 표시됨)<br>
+```jsp
+<div class="container">
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4">
+			<div class="jumbotron" style="padding-top: 20px;">
+				<form method="post" action="loginAction.jsp">
+					<h3 style="text-align: center;">로그인 화면</h3>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+					</div>
+					<input type="submit" class="btn btn-primary form-control" value="로그인">
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-4"></div>
+	</div>
+```
+class="container"를 사용해 component를 감싸줄 container를 만든다.<br>
+jumbotron 템플릿 꾸며주기
  
  
 
