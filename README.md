@@ -83,6 +83,8 @@ class ="active" 하면 현재 선택이 되었다는 뜻(현재 선택된 홈페
 2.뷰포트 전페폭까지 늘어나는 최대폭 콘테이너= .container-fluid<br>
 class="container"를 사용해 component를 감싸줄 container를 만든다.<br>
 jumbotron 템플릿 꾸며주기<br>
+
+
 **form 태그**(html)<br>
 >속성<br>
 <li>action : 폼을 전송할 서버 쪽 스크립트 파일을 지정합니다.</li>
