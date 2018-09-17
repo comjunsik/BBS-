@@ -77,10 +77,14 @@ class ="active" 하면 현재 선택이 되었다는 뜻(현재 선택된 홈페
 		<div class="col-lg-4"></div>
 	</div>
 ```
+**콘테이너**
+>부트스트랩은 사이트 콘텐츠를 감싸고 그리드 시스템을 만들 콘테이너가 필요함<br>
+1.반은형 고정폭 콘테이너= .container<br>
+2.뷰포트 전페폭까지 늘어나는 최대폭 콘테이너= .container-fluid<br>
 class="container"를 사용해 component를 감싸줄 container를 만든다.<br>
 jumbotron 템플릿 꾸며주기<br>
 **form 태그**(html)<br>
-속성<br>
+>속성<br>
 <li>action : 폼을 전송할 서버 쪽 스크립트 파일을 지정합니다.</li>
 <li>name : 폼을 식별하기 위한 이름을 지정합니다.</li>
 <li>accept-charset : 폼 전송에 사용할 문자 인코딩을 지정합니다.</li>
